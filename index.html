@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OujSEO Audit Pro - AI SEO Tool</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <style>
       body {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Cairo', 'Inter', sans-serif;
         background-color: #020617;
       }
+      @media print {
+        body { background: white !important; color: black !important; }
+        .no-print { display: none !important; }
+        .print-only { display: block !important; }
+        .card-print { border: 1px solid #e2e8f0 !important; border-radius: 0 !important; box-shadow: none !important; }
+      }
+      .print-only { display: none; }
     </style>
     <script type="importmap">
 {
